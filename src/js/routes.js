@@ -1,17 +1,15 @@
-import { HomePage } from '../pages'; 
+import { HomePage, AvisoPrivacidadPage } from '../pages'; 
 
 var routes = [
   {
-    path: '/',
-    component: HomePage, // Usas el componente importado
+    path: '/home/',
+    component: HomePage,
   },
-  // Opcionalmente, podrías agregar otra ruta que importaste:
-  /*
   {
-    path: '/acerca-de',
-    component: AboutPage, 
+    path: '/avisoprivacidad/',
+    component: AvisoPrivacidadPage, // 👈 Usas el componente importado
   },
-  */
+  // ... otras rutas
 ];
 
 export default routes;
